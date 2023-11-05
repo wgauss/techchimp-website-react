@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+	background-color: #063250;
+	color: white;
+	overflow-anchor: none;
+}
+ul li:before{
+	content: url("../../public/Images/pcb_bullet_point.png");
+	vertical-align: -12px;
+	margin-right: 8px;
+}
